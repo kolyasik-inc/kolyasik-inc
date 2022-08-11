@@ -1,7 +1,7 @@
 ## Olá! Eu sou o Oryvny
 
 - 🔭 Hoje estou desempregado
-- 🌱 Estudando Linux
+- 🌱 Estudando linha de comando Linux
 
 <div>
   <a href="about:blank">

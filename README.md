@@ -1,4 +1,4 @@
-## Olá! Eu sou o Oryvny
+## Olá! Eu sou o Nicolas
 
 - 🔭 Hoje estou desempregado
 - 🌱 Estudando linha de comando Linux

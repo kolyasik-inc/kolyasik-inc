@@ -3,6 +3,7 @@
 - 🔭 Hoje estou desempregado
 - 🌱 Estudando linha de comando Linux
 
+<!--
 <div>
   <a href="about:blank">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=oryvny&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
@@ -16,7 +17,8 @@
   <img align="center" alt="Bash" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg">
   <img align="center" alt="Vim" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vim/vim-original.svg">
 </div>  
-  
+-->  
+
 ##
  
 <!--

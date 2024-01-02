@@ -1,7 +1,7 @@
 ## Olá! Eu sou o Nicolas
 
-- 🔭 Hoje estou desempregado
-- 🌱 Estudando linha de comando Linux
+- 🔭 Estudando Quimica e Fisica.
+- 🌱 Estudando linha de comando Linux.
 
 ---
 

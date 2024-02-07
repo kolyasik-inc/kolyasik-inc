@@ -1,4 +1,4 @@
-## Olá! Eu sou o Nicolas
+## Olá! Eu sou o Nicolau
 
 - 🔭 Estudando Quimica e Fisica.
 - 🌱 Estudando linha de comando Linux.

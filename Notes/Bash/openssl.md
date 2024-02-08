@@ -1,4 +1,12 @@
-# weak
+# OpenSSL
+
+---
+
+### PBKDF2 (Password-Based Key Derivation Function 2)
+
+---
+
+### weak
 
 ```bash
 openssl enc -aes-256-cbc -k "${suasenha}" -P -md sha1
@@ -6,7 +14,7 @@ openssl enc -aes-256-cbc -k "${suasenha}" -P -md sha1
 
 ---
 
-# passwd
+### passwd
 
 ```bash
 openssl enc -aes-256-cbc -salt -in arquivo_original.txt -out arquivo_cifrado.enc
@@ -15,7 +23,7 @@ openssl enc -d -aes-256-cbc -in arquivo_cifrado.enc -out arquivo_desencriptado.t
 
 ---
 
-# rand
+### rand
 
 ```bash
 openssl rand -des -out chave-des.bin 8
@@ -25,7 +33,7 @@ openssl rand -out chave-simetrica.bin 32
 
 ---
 
-# RSA
+### RSA
 
 ```bash
 openssl genrsa -out ./private-key.pem 3072
@@ -35,7 +43,7 @@ openssl rsautl -encrypt -pubin -inkey chave-publica.pem -in arquivo-para-cifrar.
 
 ---
 
-# ECC
+### ECC
 
 ```bash
 openssl ecparam -name prime256v1 -genkey -noout -out chave-privada.pem

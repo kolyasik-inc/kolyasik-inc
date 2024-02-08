@@ -1491,13 +1491,105 @@ Agora você pode executar o script e escolher a opção desejada no menu para in
 
 ### Implementacao Simples 
 
+A programação orientada a eventos (POE) em Bash pode ser simplificada por meio de funções e manipulação de sinais. Abaixo, segue um exemplo simples de como você pode criar um script Bash que responde a eventos, como um sinal de interrupção (SIGINT):
+
 ```bash
+#!/bin/bash
+
+# Função para lidar com eventos
+handle_event() {
+    echo "Evento detectado! Encerrando o script."
+    exit 0
+}
+
+# Registrar a função para lidar com o sinal de interrupção (Ctrl+C)
+trap 'handle_event' SIGINT
+
+# Loop principal simulando a execução do script
+while true; do
+    echo "Script em execução..."
+    sleep 1
+done
 ```
+Neste exemplo:
+
+handle_event é a função que lida com o evento. No caso, ela apenas imprime uma mensagem e encerra o script.
+trap 'handle_event' SIGINT registra a função handle_event para lidar com o sinal SIGINT, que é gerado quando o usuário pressiona Ctrl+C.
+O loop principal é onde a execução do script ocorre.
+Ao executar esse script, ele continuará a imprimir "Script em execução..." até que você pressione Ctrl+C. Quando o sinal SIGINT é capturado, a função handle_event é chamada, e o script termina.
+
+Isso é um exemplo básico, mas você pode expandir essa abordagem para lidar com outros eventos ou condições específicas ao seu caso de uso. Note que, em ambientes mais complexos, a POE pode envolver o uso de bibliotecas ou frameworks específicos.
+
 
 ### Implementacao Avancada
 
+A programação orientada a eventos (POE) em Bash pode ser estendida usando abordagens mais avançadas, como o uso de funções de callback e manipulação de sinais. Vou criar um exemplo mais avançado usando a biblioteca trap para manipular vários sinais e callbacks para lidar com eventos específicos.
+
 ```bash
+#!/bin/bash
+
+# Declarando um array associativo para armazenar eventos e suas callbacks
+declare -A event_callbacks
+
+# Função para adicionar callbacks para eventos
+add_callback() {
+    local evento=$1
+    local callback=$2
+    event_callbacks["$evento"]=$callback
+}
+
+# Função para lidar com eventos
+handle_event() {
+    local evento=$1
+    local callback="${event_callbacks[$evento]}"
+    if [ -n "$callback" ]; then
+        $callback
+    else
+        echo "Evento não tratado: $evento"
+    fi
+}
+
+# Adicionando callbacks para eventos específicos
+add_callback "SINAL_USUARIO1" "echo 'Evento personalizado 1'"
+add_callback "SINAL_USUARIO2" "echo 'Evento personalizado 2'"
+add_callback "SIGINT" "handle_interrupt"
+
+# Função para lidar com o sinal de interrupção (Ctrl+C)
+handle_interrupt() {
+    echo "Sinal de interrupção (Ctrl+C) recebido. Encerrando o script."
+    exit 0
+}
+
+# Função para lidar com o sinal de término (Ctrl+\)
+handle_quit() {
+    echo "Sinal de término (Ctrl+\\) recebido. Encerrando o script."
+    exit 0
+}
+
+# Adicionando callbacks para sinais específicos
+add_callback "SIGQUIT" "handle_quit"
+
+# Registrando os sinais
+for evento in "${!event_callbacks[@]}"; do
+    trap "handle_event $evento" "$evento"
+done
+
+# Loop principal simulando a execução do script
+while true; do
+    echo "Script em execução..."
+    sleep 1
+done
 ```
+
+Neste exemplo:
+
+event_callbacks é um array associativo usado para armazenar eventos e suas callbacks.
+add_callback é uma função para adicionar callbacks para eventos específicos.
+handle_event é uma função para lidar com eventos, chamando a callback associada.
+Callbacks específicas são adicionadas para eventos e sinais específicos, como "SINAL_USUARIO1", "SINAL_USUARIO2", "SIGINT", e "SIGQUIT".
+As funções handle_interrupt e handle_quit são exemplos de callbacks que lidam com sinais específicos.
+O loop principal continua a execução do script até que um sinal de interrupção (Ctrl+C) ou término (Ctrl+) seja recebido.
+Este é um exemplo mais avançado, mas ainda sim, a programação orientada a eventos em Bash é limitada em comparação com linguagens mais voltadas para esse paradigma. Considere outras opções se precisar de funcionalidades mais avançadas de POE.
 
 ---
 

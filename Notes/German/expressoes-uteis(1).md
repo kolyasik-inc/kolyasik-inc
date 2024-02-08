@@ -1,7 +1,7 @@
 # expressoes em alemao
 
 **Alemão** | **Português**
----|---
+|---|---|
 Guten Morgen | Bom dia
 Guten Tag | Olá / Boa tarde
 Guten Abend | Boa noite

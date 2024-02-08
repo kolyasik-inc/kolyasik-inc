@@ -3,6 +3,9 @@
 ---
 
 ### PBKDF2 (Password-Based Key Derivation Function 2)
+```bash
+openssl passwd -6 -salt <salt_value> -in <password_file>
+```
 
 ---
 

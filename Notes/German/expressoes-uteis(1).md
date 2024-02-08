@@ -1,7 +1,7 @@
 # expressoes em alemao
----
+---|---
 Guten Morgen | Bom dia
----
+---|---
     Guten Tag - Olá / Boa tarde
     Guten Abend - Boa noite
     Auf Wiedersehen - Adeus

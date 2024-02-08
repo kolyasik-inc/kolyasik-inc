@@ -6,59 +6,59 @@ Guten Morgen | Bom dia
 ---|---
 Guten Tag | Olá / Boa tarde
 ---|---
-Guten Abend - Boa noite
+Guten Abend | Boa noite
 ---|---
-Auf Wiedersehen - Adeus
+Auf Wiedersehen | Adeus
 ---|---
-Bitte - Por favor
+Bitte | Por favor
 ---|---
-Danke - Obrigado(a)
+Danke | Obrigado(a)
 ---|---
-Entschuldigung - Desculpe
+Entschuldigung | Desculpe
 ---|---
-Ja - Sim
+Ja | Sim
 ---|---
-Nein - Não
+Nein | Não
 ---|---
-Vielen Dank - Muito obrigado(a)
+Vielen Dank | Muito obrigado(a)
 ---|---
-Wie geht es Ihnen? - Como vai você? (formal)
+Wie geht es Ihnen? | Como vai você? (formal)
 ---|---
-Wie geht's? - Como vai? (informal)
+Wie geht's? | Como vai? (informal)
 ---|---
-Es tut mir leid - Sinto muito
+Es tut mir leid | Sinto muito
 ---|---
-Kein Problem - Sem problema
+Kein Problem | Sem problema
 ---|---
-Ich verstehe nicht - Eu não entendo
+Ich verstehe nicht | Eu não entendo
 ---|---
-Sprechen Sie Englisch? - Você fala inglês?
+Sprechen Sie Englisch? | Você fala inglês?
 ---|---
-Wo ist...? - Onde fica...?
+Wo ist...? | Onde fica...?
 ---|---
-Hilfe! - Socorro!
+Hilfe! | Socorro!
 ---|---
-Ich möchte... - Eu gostaria de...
+Ich möchte... | Eu gostaria de...
 ---|---
-Prost! - Saúde! (para brindar)
+Prost! | Saúde! (para brindar)
 ---|---
-Wie heißt du? - Como você se chama?
+Wie heißt du? | Como você se chama?
 ---|---
-Woher kommst du? - De onde você é?
+Woher kommst du? | De onde você é?
 ---|---
-Ich komme aus... - Eu sou de...
+Ich komme aus... | Eu sou de...
 ---|---
-Wie spät ist es? - Que horas são?
+Wie spät ist es? | Que horas são?
 ---|---
-Wo ist die Toilette? - Onde fica o banheiro?
+Wo ist die Toilette? | Onde fica o banheiro?
 ---|---
-Kann ich Ihnen/Ihnen helfen? - Posso ajudar você? (formal)
+Kann ich Ihnen/Ihnen helfen? | Posso ajudar você? (formal)
 ---|---
-Kannst du mir helfen? - Você pode me ajudar? (informal)
+Kannst du mir helfen? | Você pode me ajudar? (informal)
 ---|---
-Wo ist der nächste Bahnhof? - Onde fica a estação de trem mais próxima?
+Wo ist der nächste Bahnhof? | Onde fica a estação de trem mais próxima?
 ---|---
-Was kostet das? - Quanto custa isso?
+Was kostet das? | Quanto custa isso?
 ---|---
 Ich hätte gern... | Eu gostaria de...
 ---|---

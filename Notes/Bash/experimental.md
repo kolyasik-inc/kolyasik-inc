@@ -10,6 +10,7 @@ _indice_
 * [Garbage Collector](#gb-01)
 * [Machine Learning](#ml-01)
 * [Matrizes Bash](#mb-01)
+* [Programacao Orientada a Objetos](#po-01)
 * [Redes Neurais](#rn-01)
 ---
 
@@ -1470,6 +1471,93 @@ done
 4. Cada opção do menu é tratada em um bloco case. A opção 1 exibe a matriz usando a função exibir_matriz, a opção 2 permite ao usuário salvar um valor em uma posição específica e a opção 3 permite ao usuário ler o valor de uma posição específica. A opção 4 encerra o loop e o script.
 
 Agora você pode executar o script e escolher a opção desejada no menu para interagir com a matriz. O usuário pode salvar valores em posições específicas e também pode ler os valores de posições específicas da matriz.
+
+---
+
+### po-01
+# Programacao Orientada a Objetos
+
+### Implementacao simples
+Embora o Bash não seja uma linguagem orientada a objetos (OOP) no sentido clássico, podemos criar algo semelhante usando funções e arrays associativos. Aqui está um exemplo simples de como você pode estruturar um código para simular conceitos de POO em Bash:
+
+```bash
+#!/bin/bash
+
+# Definindo uma "classe" em Bash
+Carro() {
+    local modelo=""
+    local cor=""
+    local ano=""
+
+    # Método para definir as propriedades do carro
+    definir_propriedades() {
+        modelo="$1"
+        cor="$2"
+        ano="$3"
+    }
+
+    # Método para exibir informações do carro
+    exibir_info() {
+        echo "Modelo: $modelo"
+        echo "Cor: $cor"
+        echo "Ano: $ano"
+    }
+}
+
+# Criando uma "instância" da "classe"
+meu_carro=()
+Carro
+
+# Atribuindo valores às propriedades usando o método
+meu_carro.definir_propriedades "Civic" "Preto" 2022
+
+# Chamando o método para exibir informações
+meu_carro.exibir_info
+```
+
+### Implementacao Avancada
+
+```bash
+#!/bin/bash
+
+# Definindo a "classe" em Bash
+class Carro {
+    # Propriedades privadas
+    private modelo=""
+    private cor=""
+    private ano=""
+
+    # Construtor
+    constructor() {
+        this.modelo=""
+        this.cor=""
+        this.ano=""
+    }
+
+    # Método para definir propriedades
+    public definir_propriedades() {
+        this.modelo="$1"
+        this.cor="$2"
+        this.ano="$3"
+    }
+
+    # Método para exibir informações
+    public exibir_info() {
+        echo "Modelo: ${this.modelo}"
+        echo "Cor: ${this.cor}"
+        echo "Ano: ${this.ano}"
+    }
+}
+
+# Criando uma "instância" da "classe"
+meu_carro=new Carro
+
+# Atribuindo valores às propriedades usando o método
+meu_carro.definir_propriedades "Civic" "Preto" 2022
+
+# Chamando o método para exibir informações
+meu_carro.exibir_info
+```
 
 ---
 

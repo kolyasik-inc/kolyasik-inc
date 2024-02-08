@@ -24,7 +24,7 @@ _indice_
 * [Machine Learning](#ml-01)
 * [Matrizes Bash](#mb-01)
 * [Programacao Orientada a Objetos](#po-01)
-* [Programacao Orientada a Eventos](#po-01)
+* [Programacao Orientada a Eventos](#pe-01)
 * [Redes Neurais](#rn-01)
 ---
 
@@ -1220,7 +1220,7 @@ Note que essa abordagem é apenas uma simulação e não é tão eficiente ou po
 
 ---
 
-### gc-01
+### gb-01
 # Garbage Collector Bash
 
 Em Bash, o equivalente ao "garbage collector" (coletor de lixo) seria um script ou comando que fosse responsável por limpar e remover arquivos ou diretórios desnecessários ou temporários. Você pode criar um script em Bash para realizar essa tarefa. Aqui está um exemplo simples:
@@ -1283,6 +1283,143 @@ Na variável `tamanho_limite`, definimos o tamanho máximo de arquivo permitido.
 Na variável `extensoes`, definimos uma lista de extensões de arquivo que desejamos remover. No exemplo, estamos removendo arquivos com as extensões `.tmp` e `.log`.
 
 Lembre-se de ajustar o valor de `diretorio` de acordo com o diretório que deseja limpar. Novamente, tenha cuidado ao executar esse tipo de script e certifique-se de fazer backup dos dados importantes antes de realizar qualquer remoção.
+
+---
+
+### gf-01
+# Grafos
+
+### Implementacao Simples 
+
+Representar grafos em Bash pode ser feito de maneira simples usando arrays associativos. Cada nó do grafo pode ser representado como uma chave no array, e as arestas podem ser representadas pelos valores associados a essas chaves. Vamos criar um exemplo básico de um grafo direcionado:
+
+```bash
+#!/bin/bash
+
+# Definindo o grafo como um array associativo
+declare -A grafo
+
+# Adicionando arestas ao grafo
+grafo["A"]="B C"
+grafo["B"]="D"
+grafo["C"]="E"
+grafo["D"]="F"
+grafo["E"]="F"
+grafo["F"]=""
+
+# Função para exibir os vizinhos de um nó
+exibir_vizinhos() {
+    local no=$1
+    local vizinhos=${grafo[$no]}
+
+    if [ -n "$vizinhos" ]; then
+        echo "Vizinhos de $no: $vizinhos"
+    else
+        echo "$no não tem vizinhos."
+    fi
+}
+
+# Exemplo de uso
+exibir_vizinhos "A"
+exibir_vizinhos "D"
+exibir_vizinhos "E"
+```
+Neste exemplo:
+
+O grafo é representado como um array associativo chamado grafo.
+As chaves do array representam os nós, e os valores representam os vizinhos diretos de cada nó.
+A função exibir_vizinhos recebe um nó como argumento e exibe seus vizinhos.
+Ao executar este script, você verá a lista de vizinhos para os nós "A", "D" e "E" do grafo.
+
+Este é apenas um exemplo básico, e para grafos mais complexos, você pode considerar implementar lógicas adicionais, como verificar a existência de nós ou criar funções para adicionar ou remover arestas. Lembre-se de que o Bash pode não ser a escolha mais eficiente para manipulações complexas de grafos, mas essa abordagem pode ser útil para situações simples.
+
+
+### Implementacao Avancada
+
+Implementar grafos de maneira avançada em Bash pode envolver estruturas de dados mais complexas e funções mais especializadas. Aqui está um exemplo mais avançado que utiliza funções para adicionar nós e arestas, verificar a existência de nós, realizar travessias e exibir informações detalhadas:
+
+```bash
+#!/bin/bash
+
+# Declaração do grafo como um array associativo
+declare -A grafo
+
+# Função para adicionar um nó ao grafo
+adicionar_no() {
+    local no=$1
+    grafo["$no"]=""
+}
+
+# Função para adicionar uma aresta entre dois nós
+adicionar_aresta() {
+    local origem=$1
+    local destino=$2
+
+    # Verifica se os nós existem
+    if [ -n "${grafo[$origem]}" ] && [ -n "${grafo[$destino]}" ]; then
+        # Adiciona a aresta
+        grafo["$origem"]+=" $destino"
+    else
+        echo "Erro: Nó(s) não encontrado(s)."
+    fi
+}
+
+# Função para verificar a existência de um nó
+verificar_no() {
+    local no=$1
+
+    if [ -n "${grafo[$no]}" ]; then
+        echo "$no existe no grafo."
+    else
+        echo "$no não existe no grafo."
+    fi
+}
+
+# Função para realizar uma travessia em profundidade (DFS)
+dfs() {
+    local no_inicial=$1
+    local visitados=()
+
+    function dfs_recursivo() {
+        local no_atual=$1
+        visitados+=("$no_atual")
+
+        echo "Visitando: $no_atual"
+
+        local vizinhos=${grafo[$no_atual]}
+        for vizinho in $vizinhos; do
+            if [[ ! " ${visitados[@]} " =~ " $vizinho " ]]; then
+                dfs_recursivo "$vizinho"
+            fi
+        done
+    }
+
+    dfs_recursivo "$no_inicial"
+}
+
+# Adiciona alguns nós ao grafo
+adicionar_no "A"
+adicionar_no "B"
+adicionar_no "C"
+adicionar_no "D"
+adicionar_no "E"
+
+# Adiciona arestas entre os nós
+adicionar_aresta "A" "B"
+adicionar_aresta "A" "C"
+adicionar_aresta "B" "D"
+adicionar_aresta "C" "E"
+
+# Verifica a existência de um nó
+verificar_no "A"
+verificar_no "F"
+
+# Executa uma travessia em profundidade a partir do nó "A"
+echo "Travessia em Profundidade (DFS):"
+dfs "A"
+```
+
+Este script possui funções mais especializadas, como adicionar_no, adicionar_aresta, verificar_no, e dfs (travessia em profundidade). Ele cria um grafo direcionado com alguns nós e arestas e executa uma travessia em profundidade a partir do nó "A". Adapte conforme necessário para atender aos requisitos específicos do seu projeto.
 
 ---
 
@@ -1635,6 +1772,13 @@ meu_carro.definir_propriedades "Civic" "Preto" 2022
 # Chamando o método para exibir informações
 meu_carro.exibir_info
 ```
+Neste exemplo:
+
+Carro é uma função que atua como a "classe".
+As propriedades (modelo, cor, ano) são variáveis locais dentro da função.
+definir_propriedades é um método para atribuir valores às propriedades.
+exibir_info é um método para mostrar informações do carro.
+Este é um exemplo simplificado e não reproduz totalmente os conceitos de OOP, mas pode ajudar a organizar o código de uma maneira mais modular. Em scripts Bash, muitas vezes, a programação procedural é mais comum e direta. Se a orientação a objetos é essencial para o seu caso, considerar linguagens mais adequadas para OOP seria uma escolha melhor.
 
 ### Implementacao Avancada
 
@@ -1681,6 +1825,15 @@ meu_carro.definir_propriedades "Civic" "Preto" 2022
 # Chamando o método para exibir informações
 meu_carro.exibir_info
 ```
+
+Neste exemplo:
+
+A "classe" Carro é simulada usando funções.
+Variáveis privadas são simuladas usando prefixo private.
+Um método construtor é simulado usando a função constructor.
+Métodos públicos são simulados usando public.
+Uma "instância" do objeto é criada usando a função new.
+Embora isso possa fornecer uma estrutura mais organizada, ainda é importante observar que o Bash não é uma linguagem OOP nativa. Esse exemplo é mais uma simulação e pode não fornecer todos os benefícios da programação orientada a objetos encontrados em linguagens projetadas para esse paradigma. Se você precisa de POO avançada, considerar linguagens como Python, Java ou Ruby seria uma escolha mais apropriada.
 
 ---
 

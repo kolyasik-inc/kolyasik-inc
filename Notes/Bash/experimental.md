@@ -23,6 +23,7 @@ _indice_
 * [Machine Learning](#ml-01)
 * [Matrizes Bash](#mb-01)
 * [Programacao Orientada a Objetos](#po-01)
+* [Programacao Orientada a Eventos](#po-01)
 * [Redes Neurais](#rn-01)
 ---
 

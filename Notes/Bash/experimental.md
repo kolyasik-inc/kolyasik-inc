@@ -20,6 +20,7 @@ _indice_
 * [Event Loop bash](#el-01)
 * [Fiber Bash](#fb-01)
 * [Garbage Collector](#gb-01)
+* [Grafos](#gf-01)
 * [Machine Learning](#ml-01)
 * [Matrizes Bash](#mb-01)
 * [Programacao Orientada a Objetos](#po-01)

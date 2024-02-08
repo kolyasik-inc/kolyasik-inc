@@ -1,6 +1,7 @@
 # expressoes em alemao
 
 **Alemão** | **Português**
+---|---
 Guten Morgen | Bom dia
 Guten Tag | Olá / Boa tarde
 Guten Abend | Boa noite
@@ -41,6 +42,6 @@ Herzlichen Glückwunsch! | Parabéns!
 Schön dich kennenzulernen | Prazer em conhecê-lo(a)
 Haben Sie einen Moment? | Você tem um momento? (formal)
 Es freut mich | Prazer em conhecê-lo(a)
----|---
+
 
 

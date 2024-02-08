@@ -1,5 +1,3 @@
----
-
 # Array
 
 Aqui estão exemplos de uso de arrays em diferentes estruturas no Bash, incluindo while, for, until, if, case, read e expressões matemáticas:

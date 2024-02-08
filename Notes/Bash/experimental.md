@@ -13,6 +13,7 @@
 # **implementacoes experimentais do bash**
 _indice_
 * [Alocador de Memoria](#am-01)
+* [Comunicacao Entre Processos](#ce-01)
 * [Console Customizado](#bc-01)
 * [Corotina Bash](#cs-01)
 * [Database Bash](#db-01)
@@ -288,6 +289,38 @@ Função `importar()`: Essa função permite importar e executar outro script .s
 Função `console()`: Essa é a função principal do script, que implementa o loop principal do console. Nela, é exibida a mensagem de boas-vindas e é aguardada a entrada do usuário. O comando digitado pelo usuário é processado em um bloco de seleção case para determinar qual função deve ser chamada. Se o comando não corresponder a nenhum dos comandos pré-definidos, o script tentará executar o comando diretamente no shell.
 
 Iniciar o console: O console é iniciado chamando a função `console()` após exibir a mensagem de boas-vindas e o prompt.
+
+---
+
+### ce-01
+# Comunicacao Entre Processos
+
+### Implementacao Simples 
+Comunicação entre processos em Bash pode ser feita através de pipes (|), subshell, e redirecionamento de entrada e saída. Aqui está um exemplo simples onde um processo filho envia uma mensagem para o processo pai usando um pipe:
+
+```bash
+```
+
+Neste exemplo:
+
+mkfifo cria um pipe nomeado.
+processo_filho é uma função que escreve uma mensagem no pipe.
+O processo filho é iniciado em segundo plano.
+O processo pai lê a mensagem do pipe usando cat.
+Este é um exemplo simples de comunicação entre processos em Bash usando pipes. Dependendo dos requisitos específicos, podem ser necessárias abordagens mais avançadas, como o uso de descritores de arquivos, redirecionamento de entrada e saída, ou até mesmo a utilização de processos em segundo plano. Adapte conforme necessário para atender aos requisitos do seu caso de uso.
+
+### Implementacao Avancada 
+Comunicação entre processos em Bash pode ser feita de maneira mais avançada usando descritores de arquivo e redirecionamento. Aqui está um exemplo que utiliza processos em segundo plano e redirecionamento de entrada e saída:
+
+```bash
+```
+
+Neste exemplo:
+
+exec {fd_leitura}< <(exec bash -c 'echo "Mensagem do processo filho"; sleep 2') cria um descritor de arquivo (fd_leitura) que lê a saída do processo filho.
+O processo filho é iniciado usando bash -c e envia uma mensagem para o descritor de arquivo.
+O processo pai lê a mensagem usando read -u "$fd_leitura".
+Essa abordagem oferece maior flexibilidade e controle sobre a comunicação entre processos. Adapte conforme necessário para atender aos requisitos específicos do seu projeto. Note que este é um exemplo mais avançado e pode não ser necessário para situações mais simples.
 
 ---
 

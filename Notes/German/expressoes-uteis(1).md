@@ -1,6 +1,6 @@
 # expressoes em alemao
 
-**Alemão** | **Português**
+_***Alemão***_ | _***Português***_
 |---|---|
 Guten Morgen | Bom dia
 Guten Tag | Olá / Boa tarde

@@ -1,3 +1,15 @@
+<---
+### Implementacao Simples 
+
+```bash
+```
+
+### Implementacao Avancada
+
+```bash
+```
+--->
+
 # **implementacoes experimentais do bash**
 _indice_
 * [Alocador de Memoria](#am-01)
@@ -1474,6 +1486,21 @@ Agora você pode executar o script e escolher a opção desejada no menu para in
 
 ---
 
+### pe-01
+# Programacao Orientada a Eventos
+
+### Implementacao Simples 
+
+```bash
+```
+
+### Implementacao Avancada
+
+```bash
+```
+
+---
+
 ### po-01
 # Programacao Orientada a Objetos
 
@@ -1516,6 +1543,8 @@ meu_carro.exibir_info
 ```
 
 ### Implementacao Avancada
+
+Embora o Bash não seja projetado para programação orientada a objetos (POO) avançada, podemos estender os conceitos de POO de maneira mais avançada usando funções, arrays associativos e técnicas de manipulação de variáveis. Aqui está um exemplo mais avançado, simulando uma abordagem mais próxima da POO:
 
 ```bash
 #!/bin/bash

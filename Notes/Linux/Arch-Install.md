@@ -14,6 +14,7 @@
 ### **teclado**
 
 _No caso de ser teclado brasileiro_ `loadkeys br-abnt2`
+
 _No caso de teclado americano_ `loadkeys us-acentos`
 
 ```bash

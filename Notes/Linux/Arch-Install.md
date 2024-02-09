@@ -53,7 +53,7 @@ ou simplesmente deletar  os discos
 sudo wipefs --all --force /dev/sdX
 ```
 
-### ** particionamento simples **
+### **particionamento mediano**
 
 ```bash
 cfdisk /dev/sda
@@ -63,7 +63,7 @@ cfdisk /dev/sda
 # and "write"
 ```
 
-### ** Particionamento Avançado
+### **Particionamento Avançado**
 
 ```bash
 parted -a optimal /dev/sdX
@@ -80,6 +80,23 @@ parted -a optimal /dev/sdX
 # name 3 gentoolvm 
 # set 3 lvm on 
 # p 
+```
+
+## **Formatando sistemas de arquivos**
+
+```bash
+mkfs.vfat /dev/sdX1
+mkfs.ext4 -T small -L "boot" /dev/sdX2
+cryptsetup -v -y -c aes-xts-plain64 -s 512 -h sha512 -i 5000 --use-random luksFormat /dev/sdX3
+cryptsetup luksDump /dev/sdX3
+cryptsetup luksOpen /dev/sdX3 GentooPC
+pvcreate /dev/mapper/GentooPC
+pvdisplay
+vgcreate gentoo /dev/mapper/GentooPC
+vgdisplay
+lvcreate -C y -L 8G gentoo -n swap
+lvcreate -l +100%FREE gentoo -n root
+lvdisplay
 ```
 
 ~Fim.~

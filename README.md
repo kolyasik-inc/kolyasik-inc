@@ -1,6 +1,6 @@
-# **Olà, eu sou o Nicolau**
+# **Olà Mundo! Eu sou o Nicolau**
 
-*`set msg="Hello World!"`*
+*`set msg="Hello World! I'm the Nicolau"`*
 <br />
 *`printf ${msg} \`*
 

@@ -8,13 +8,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    #animatedText {
-      font-size: 24px;
-      font-weight: bold;
-      position: relative;
-      animation: moveAnimation 3s linear infinite, rainbowAnimation 5s linear infinite;
-    }
+  <p style="font-size: 24px;font-weight: bold;position: relative;animation: moveAnimation 3s linear infinite, rainbowAnimation 5s linear infinite; "> Ola </p>
 
    @keyframes moveAnimation {
       0%, 100% { left: 0; }

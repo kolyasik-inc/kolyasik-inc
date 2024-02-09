@@ -9,7 +9,7 @@
 ---
 
 ##### is-00
-## Pre-Configs da ISO
+# Pre-Configs da ISO
 
 ### **teclado**
 
@@ -29,6 +29,28 @@ loadkeys us
 timedatectl set-ntp true
 # acertar manualmente o relogio
 date -s '2014-12-25 12:34:56'
+```
+
+---
+
+##### pt-00
+# Particionamento e Subvolumes
+
+## **Particionamento**
+
+### **Primeiro Metodo**
+
+```bash
+# Limpeza do disco substitua /sdX ou /mapper/VolumeLogico
+sudo wipefs --all --force /dev/sdX
+
+cfdisk /dev/sda
+# select disk label "dos"
+# create partition "sdX1"  size "8gb" type " linux swap / solaris"
+# create partition "sdX2" size remaining space with type "linux"
+# and "write"
+
+mkfs.ext4 /dev/sda2
 ```
 
 ~Fim.~

@@ -6,6 +6,8 @@
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kolyasik-inc&show_icons=true&theme=transparent&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
  
+![Snake animation](https://github.com/kolyasik-inc/kolyasik-inc/blob/output/github-contribution-grid-snake.svg)
+
 <!--
 <div>
   <a href="https://www.youtube.com/channel/UCEzUJF1OH0n6dnPIXe5hpCg" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
@@ -15,6 +17,7 @@
   </div> 
  -->
 
+<!---
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -29,3 +32,4 @@
     src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
   />
 </picture>
+--->

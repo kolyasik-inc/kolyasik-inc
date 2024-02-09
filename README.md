@@ -4,6 +4,7 @@
 |---|---|
 | 1 | [ Anotações ](./Notes/pt_BR.UTF-8.md)
 
+---
 
 ```bash
 #!/bin/bash

@@ -36,21 +36,50 @@ date -s '2014-12-25 12:34:56'
 ##### pt-00
 # Particionamento e Subvolumes
 
-## **Particionamento**
+## **Setups dos Discos**
 
-### **Primeiro Metodo**
+### **limpeza de disco**
+
+Apriori pode se substituir os dados ocultos do HDD por zeros
+
+```bash
+shred -vzf -n=2 /dev/sdX
+```
+
+ou simplesmente deletar  os discos 
 
 ```bash
 # Limpeza do disco substitua /sdX ou /mapper/VolumeLogico
 sudo wipefs --all --force /dev/sdX
+```
 
+### ** particionamento simples **
+
+```bash
 cfdisk /dev/sda
 # select disk label "dos"
 # create partition "sdX1"  size "8gb" type " linux swap / solaris"
 # create partition "sdX2" size remaining space with type "linux"
 # and "write"
+```
 
-mkfs.ext4 /dev/sda2
+### ** Particionamento Avançado
+
+```bash
+parted -a optimal /dev/sdX
+
+# mklabel gpt
+# unit mib 
+# mkpart primary 1 513 
+# name 1 bios_grub 
+# set 1 bios_grub on 
+# mkpart primary 513 1537 
+# name 2 boot 
+# set 2 BOOT on 
+# mkpart primary 1537 -1 
+# name 3 gentoolvm 
+# set 3 lvm on 
+# p 
 ```
 
 ~Fim.~

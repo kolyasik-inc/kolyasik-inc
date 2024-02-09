@@ -1,8 +1,29 @@
-# **Olà Mundo! Eu sou o Nicolau**
+# **READ-ME / LEIA-ME**
 
-# *`set msg="Hello World! I'm the Nicolau"`*
-<br />
-*`printf ${msg} \`*
+```bash
+#!/bin/bash
+
+# Declare as variáveis
+msg_pt_BR_UTF_8="Olà Mundo! Eu sou o Nicolau"
+msg_en_US_UTF_8="Hello World! I'm the Nicolau"
+
+# Crie um array com os nomes das variáveis
+variaveis=("msg_pt_BR_UTF_8" "msg_en_US_UTF_8")
+
+# Obtenha o idioma atual do sistema
+idioma_atual=$LANG
+
+# Loop para verificar o idioma e imprimir a mensagem correspondente
+for variavel in "${variaveis[@]}"; do
+    if [[ $idioma_atual == *"pt_BR"* ]] && [[ $variavel == "msg_pt_BR_UTF_8" ]]; then
+        mensagem=${!variavel}
+        printf "%s\n" "Mensagem em Português (Brasil): $mensagem"
+    elif [[ $idioma_atual == *"en_US"* ]] && [[ $variavel == "msg_en_US_UTF_8" ]]; then
+        mensagem=${!variavel}
+        printf "%s\n" "Message in English (United States): $mensagem"
+    fi
+done
+```
 
 | numero | destino|
 |---|---|

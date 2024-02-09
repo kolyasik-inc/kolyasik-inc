@@ -8,12 +8,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <p style="font-size: 24px;font-weight: bold;position: relative;animation: moveAnimation 3s linear infinite, rainbowAnimation 5s linear infinite; "> Ola </p>
-
-   @keyframes moveAnimation {
+  <p style="font-size: 24px;font-weight: bold;position: relative;animation: moveAnimation 3s linear infinite, rainbowAnimation 5s linear infinite; ";@keyframes moveAnimation {
       0%, 100% { left: 0; }
       50% { left: 100px; }
-    }
+    } ">LLLL</p>
 
   @keyframes rainbowAnimation {
       0%, 100% { color: rgb(255, 0, 0); } /* Vermelho */

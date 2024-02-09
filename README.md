@@ -4,8 +4,6 @@
 <br />
 *`printf ${msg} \`*
 
-<h1>Indice</h1>
-
 | numero | destino|
 |---|---|
 | 1 | [ Anotações ](./Notes/pt_BR.UTF-8.md)

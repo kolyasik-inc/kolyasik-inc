@@ -8,7 +8,7 @@
 
 ---
 
-~##### is-00~
+##### is-00
 ## Pre-Configs da ISO
 
 ### **teclado**
@@ -30,3 +30,7 @@ timedatectl set-ntp true
 # acertar manualmente o relogio
 date -s '2014-12-25 12:34:56'
 ```
+
+~Fim.~
+
+---

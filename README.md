@@ -1,8 +1,8 @@
-# [Olà, eu sou o Nicolau](./Notes/random/index.md)
+# **Olà, eu sou o Nicolau**
 
-***`set msg="Hello World!"`***
+*`set msg="Hello World!"`*
 <br />
-***`printf ${msg} \`***
+*`printf ${msg} \`*
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kolyasik-inc&show_icons=true&theme=transparent&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
  

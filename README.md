@@ -1,13 +1,5 @@
-## Olá! Eu sou o Nicolau
-
-- 🔭 Estudando Quimica e Fisica.
-- 🌱 Estudando linha de comando Linux.
-
----
-
-<h1>Index</h1>
-<div>
-</div>
+## set msg="Hello World!"
+## `printf ${msg} \`
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kolyasik-inc&show_icons=true&theme=transparent&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
  

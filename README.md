@@ -2,7 +2,10 @@
 
 | numero | destino|
 |---|---|
-| 1 | [ Anotações ](./Notes/pt_BR.UTF-8.md)
+| 1 | [ Anotações ](./Notes/pt_BR.UTF-8.md) |
+| 2 | [ Dot Files]() |
+| 3 | [ Scripts ] | |
+
 
 ---
 

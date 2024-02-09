@@ -1,37 +1,8 @@
 # Olà, eu sou o Nicolau
 
 ***`set msg="Hello World!"`***
+<br />
 ***`printf ${msg} \`***
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <p style="font-size: 24px;font-weight: bold;position: relative;animation: moveAnimation 3s linear infinite, rainbowAnimation 5s linear infinite; ";@keyframes moveAnimation {
-      0%, 100% { left: 0; }
-      50% { left: 100px; }
-    } ">LLLL</p>
-
-  @keyframes rainbowAnimation {
-      0%, 100% { color: rgb(255, 0, 0); } /* Vermelho */
-      16.7% { color: rgb(255, 127, 0); } /* Laranja */
-      33.3% { color: rgb(255, 255, 0); } /* Amarelo */
-      50% { color: rgb(0, 255, 0); } /* Verde */
-      66.7% { color: rgb(0, 0, 255); } /* Azul */
-      83.3% { color: rgb(75, 0, 130); } /* Roxo */
-    }
-  </style>
-  <title>Animated Rainbow Text</title>
-</head>
-<body>
-
-<div id="animatedText">Texto Animado em Arco-Íris</div>
-
-</body>
-</html>
-
-
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kolyasik-inc&show_icons=true&theme=transparent&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
  

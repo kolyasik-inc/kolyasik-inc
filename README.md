@@ -1,4 +1,4 @@
-# [Olà, eu sou o Nicolau](,/Notes/random/index.md)
+# [Olà, eu sou o Nicolau](./Notes/random/index.md)
 
 ***`set msg="Hello World!"`***
 <br />

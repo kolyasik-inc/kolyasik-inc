@@ -11,19 +11,17 @@
 ##### is-00
 ## Pre-Configs da ISO
 
-### teclado
+### **teclado**
 
-No caso de ser teclado brasileiro $ `loadkeys br-abnt2`
-No caso de teclado americano `loadkeys us-acentos`
+_No caso de ser teclado brasileiro_ `loadkeys br-abnt2`
+_No caso de teclado americano_ `loadkeys us-acentos`
 
 ```bash
 localectl list-keymaps | less
 loadkeys us
 ```
 
-## relogio
-
-### sincronizar relogio
+### **sincronizar relogio**
 
 ```bash
 timedatectl set-ntp true

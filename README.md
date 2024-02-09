@@ -4,6 +4,14 @@
 <br />
 *`printf ${msg} \`*
 
+<h1>Indice</h1>
+
+| numero | destino|
+|---|---|
+| 1 | [ Anotações ](./Notes/pt_BR.UTF-8.md)
+
+---
+
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kolyasik-inc&show_icons=true&theme=transparent&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
  
 <picture>

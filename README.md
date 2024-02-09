@@ -16,12 +16,12 @@
       animation: moveAnimation 3s linear infinite, rainbowAnimation 5s linear infinite;
     }
 
-    @keyframes moveAnimation {
+   @keyframes moveAnimation {
       0%, 100% { left: 0; }
       50% { left: 100px; }
     }
 
-    @keyframes rainbowAnimation {
+  @keyframes rainbowAnimation {
       0%, 100% { color: rgb(255, 0, 0); } /* Vermelho */
       16.7% { color: rgb(255, 127, 0); } /* Laranja */
       33.3% { color: rgb(255, 255, 0); } /* Amarelo */

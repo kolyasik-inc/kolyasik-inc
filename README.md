@@ -3,7 +3,12 @@
 ***`set msg="Hello World!"`***
 ***`printf ${msg} \`***
 
-<style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
     #animatedText {
       font-size: 24px;
       font-weight: bold;
@@ -25,6 +30,14 @@
       83.3% { color: rgb(75, 0, 130); } /* Roxo */
     }
   </style>
+  <title>Animated Rainbow Text</title>
+</head>
+<body>
+
+<div id="animatedText">Texto Animado em Arco-Íris</div>
+
+</body>
+</html>
 
 
 

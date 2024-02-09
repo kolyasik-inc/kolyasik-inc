@@ -6,7 +6,8 @@
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kolyasik-inc&show_icons=true&theme=transparent&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
  
-![Snake animation](https://github.com/kolyasik-inc/kolyasik-inc/blob/output/dist/github-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/kolyasik-inc/seu-repositorio/output/dist/github-snake.svg
+)
 
 <!--
 <div>

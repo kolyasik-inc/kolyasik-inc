@@ -1,6 +1,6 @@
 # Olà, eu sou o Nicolau
 
-<div>
+<div style="background-color:powderblue;">
  <code>set msg="Hello World!"</code>
  <code>printf ${msg} \</code>
 <div>

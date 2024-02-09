@@ -5,6 +5,7 @@
 | Numero | Conteudos |
 |---|---|
 | 1 | [Pre-Configs da ISO](#is-00) |
+| 2 | [Particionamento e Subvolumes](#pt-00) |
 
 ---
 

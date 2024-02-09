@@ -54,7 +54,7 @@ ou simplesmente deletar  os discos
 sudo wipefs --all --force /dev/sdX
 ```
 
-### **particionamento mediano**
+### **particionamento Principiante**
 
 ```bash
 cfdisk /dev/sda
@@ -62,6 +62,26 @@ cfdisk /dev/sda
 # create partition "sdX1"  size "8gb" type " linux swap / solaris"
 # create partition "sdX2" size remaining space with type "linux"
 # and "write"
+```
+
+### **Particionamento Intermediario**
+```bash
+gdisk /dev/sda
+ 
+# command: n 
+# First sector: default 
+# Last sector: +350M 
+# L to show codes and search EFI 
+# GUID: ef00 
+ 
+# command: n 
+# First sector: default 
+# Last sector: default 
+# L to show codes and search Linux filesystem 
+# GUID: 8300 
+ 
+# command: w
+# proceed? y 
 ```
 
 ### **Particionamento Avançado**

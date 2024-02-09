@@ -22,14 +22,11 @@ localectl list-keymaps | less
 loadkeys us
 ```
 
-### **sincronizar relogio**
+### **relogio**
 
 ```bash
+# sincronizar relogio
 timedatectl set-ntp true
-```
-
-### acertar manualmente o relogio
-
-```bash
+# acertar manualmente o relogio
 date -s '2014-12-25 12:34:56'
 ```

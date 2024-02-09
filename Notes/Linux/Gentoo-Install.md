@@ -8,7 +8,7 @@
 
 ---
 
-######### rf-00
+##### rf-00
 
 ### Para acertar a data por CLI
 ```bash

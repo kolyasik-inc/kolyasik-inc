@@ -1,6 +1,10 @@
+# Olà, eu sou o Nicolau
+
 <div>
-## `set msg="Hello World!"`
-## `printf ${msg} \`
+ <code>
+  set msg="Hello World!"
+  printf ${msg} \
+ </code>
 <div>
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kolyasik-inc&show_icons=true&theme=transparent&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)

@@ -1,11 +1,11 @@
 # **Introdução ao Bash:**
 O Bash (Bourne Again SHell) é um interpretador de comandos Unix e uma linguagem de script. Ele fornece uma interface de linha de comando para interagir com o sistema operacional. Aqui está um exemplo simples de um script Bash:
 
-``bash
-
+```bash
 #!/bin/bash
 # Este é um comentário
 echo "Olá, Mundo!"
+```
 
 ### Comandos Básicos do Bash:
 

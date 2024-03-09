@@ -31,9 +31,9 @@ Saudações, este código parece ser de um programador ou administrador de siste
 
 | numero | destino|
 |---|---|
-| 1 | [ Anotações ](./Notes/pt_BR.UTF-8.md) |
-| 2 | [ Dot Files]() |
-| 3 | [ Scripts ] | |
+| 1 | [ Anotações ](https://github.com/kolyasik-inc/nicolau-anotacoes) |
+| 2 | [ Dot Files](https://github.com/kolyasik-inc/nicolau-dotfiles) |
+| 3 | [ Scripts ](https://github.com/kolyasik-inc/nicolau-scripts) |
 
 
 ---

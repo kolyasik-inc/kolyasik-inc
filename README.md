@@ -2,8 +2,6 @@ Saudações, este código parece ser de um programador ou administrador de siste
 
 ---
 
-# **READ-ME / LEIA-ME**
-
 | numero | destino|
 |---|---|
 | 1 | [ Anotações ](https://github.com/kolyasik-inc/nicolau-anotacoes) |

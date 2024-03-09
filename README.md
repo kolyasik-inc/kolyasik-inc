@@ -1,3 +1,13 @@
+<div style="display: flex;">
+    <div style="flex: 1;">
+        Conteúdo 1
+    </div>
+    <div style="flex: 1;">
+        Conteúdo 2
+    </div>
+</div>
+
+
 Saudações, este código parece ser de um programador ou administrador de sistemas, mas não é exatamente a minha área de interesse. Sou mais um usuário do Linux, sabe? Não prefiro me aprofundar em detalhes técnicos. Não tenho grande afinidade com a programação e afins. Tenho curiosidade de pesquisar como as coisas funcionam e gosto de desafios como Arch ou Gentoo. Sou um entusiasta do uso da linha de comando, navegando por diretórios e ajustando configurações. Não sou o tipo de pessoa que passa horas escrevendo código, mas sou aquele que garante que tudo esteja funcionando perfeitamente nos bastidores. Portanto, se precisar de alguém para configurar seu Linux de uso doméstico, estou à disposição. Apenas não me peça para escrever um script sofisticado ou algo do tipo. Isso realmente não é minha praia.
 
 ---
@@ -62,52 +72,3 @@ done
 
 ---
 
-<div class="container" style="display: flex;">
-    <table class="sidebar" style="width: 200px; background-color: #f0f0f0;">
-        <tr>
-            <td>Coluna 1</td>
-                <td>Coluna 2</td>
-                <td>Coluna 3</td>
-        </tr>
-        <tr>
-            <td>Dado 1</td>
-            <td>Dado 2</td>
-            <td>Dado 3</td>
-        </tr>
-<!-- Adicione mais linhas conforme necessário -->
-    </table>
-    <div class="content" style="flex-grow: 1; padding: 20px;">
-        <p>Este é o texto que estará à direita da tabela.</p>
-        <p>Você pode adicionar mais conteúdo aqui conforme necessário.</p>
-    </div>
-</div>
-
----
-
-<section markdown="1" style="display: flex;">
-
-<div class="my-block" markdown="1"> 
-## Is your company, department or team..."
-    
-* Waiting for solutions ? 
-</div>
-
-<div class="my-block" markdown="1">
-## Tip "How to be more effective "
-
-* You could do this and that
-</div>
-
-</section>
-
----
-
-<section markdown="1" style="display: flex;">
-
-!!! Warning "Is your company, department or team..."
-    * Waiting for solutions ? 
-    
-!!! Tip "How to be more effective "
-    You could do this and that
-
-</section>

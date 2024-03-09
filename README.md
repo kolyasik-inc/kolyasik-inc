@@ -62,22 +62,22 @@ done
 
 ---
 
-div class="container" style="display: flex;">
-        <table class="sidebar" style="width: 200px; background-color: #f0f0f0;">
-            <tr>
-                <td>Coluna 1</td>
+<div class="container" style="display: flex;">
+    <table class="sidebar" style="width: 200px; background-color: #f0f0f0;">
+        <tr>
+            <td>Coluna 1</td>
                 <td>Coluna 2</td>
                 <td>Coluna 3</td>
-            </tr>
-            <tr>
-                <td>Dado 1</td>
-                <td>Dado 2</td>
-                <td>Dado 3</td>
-            </tr>
-            <!-- Adicione mais linhas conforme necessário -->
-        </table>
-        <div class="content" style="flex-grow: 1; padding: 20px;">
-            <p>Este é o texto que estará à direita da tabela.</p>
-            <p>Você pode adicionar mais conteúdo aqui conforme necessário.</p>
-        </div>
+        </tr>
+        <tr>
+            <td>Dado 1</td>
+            <td>Dado 2</td>
+            <td>Dado 3</td>
+        </tr>
+<!-- Adicione mais linhas conforme necessário -->
+    </table>
+    <div class="content" style="flex-grow: 1; padding: 20px;">
+        <p>Este é o texto que estará à direita da tabela.</p>
+        <p>Você pode adicionar mais conteúdo aqui conforme necessário.</p>
     </div>
+</div>

@@ -1,13 +1,3 @@
-<div style="display: flex;">
-    <div style="flex: 1;">
-        Conteúdo 1
-    </div>
-    <div style="flex: 1;">
-        Conteúdo 2
-    </div>
-</div>
-
-
 Saudações, este código parece ser de um programador ou administrador de sistemas, mas não é exatamente a minha área de interesse. Sou mais um usuário do Linux, sabe? Não prefiro me aprofundar em detalhes técnicos. Não tenho grande afinidade com a programação e afins. Tenho curiosidade de pesquisar como as coisas funcionam e gosto de desafios como Arch ou Gentoo. Sou um entusiasta do uso da linha de comando, navegando por diretórios e ajustando configurações. Não sou o tipo de pessoa que passa horas escrevendo código, mas sou aquele que garante que tudo esteja funcionando perfeitamente nos bastidores. Portanto, se precisar de alguém para configurar seu Linux de uso doméstico, estou à disposição. Apenas não me peça para escrever um script sofisticado ou algo do tipo. Isso realmente não é minha praia.
 
 ---

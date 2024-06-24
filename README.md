@@ -2,36 +2,6 @@ Saudações, este código parece ser de um programador ou administrador de siste
 
 ---
 
-| numero | destino|
-|---|---|
-| 1 | [ Anotações ](https://github.com/kolyasik-inc/nicolau-anotacoes) |
-| 2 | [ Dot Files](https://github.com/kolyasik-inc/nicolau-dotfiles) |
-| 3 | [ Scripts ](https://github.com/kolyasik-inc/nicolau-scripts) |
-
-
----
-
-```bash
-#!/bin/bash
-
-msg_pt_BR_UTF_8="Olà Mundo! Eu sou o Nicolau"
-msg_en_US_UTF_8="Hello World! I'm the Nicolau"
-variaveis=("msg_pt_BR_UTF_8" "msg_en_US_UTF_8")
-idioma_atual=$LANG
-
-for variavel in "${variaveis[@]}"; do
-    if [[ $idioma_atual == *"pt_BR"* ]] && [[ $variavel == "msg_pt_BR_UTF_8" ]]; then
-        mensagem=${!variavel}
-        printf "%s\n" "Mensagem em Português (Brasil): $mensagem"
-    elif [[ $idioma_atual == *"en_US"* ]] && [[ $variavel == "msg_en_US_UTF_8" ]]; then
-        mensagem=${!variavel}
-        printf "%s\n" "Message in English (United States): $mensagem"
-    fi
-done
-```
-
----
-
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kolyasik-inc&show_icons=true&theme=transparent&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
  
 <picture>

@@ -1,4 +1,4 @@
-Saudações, este código parece ser de um programador ou administrador de sistemas, mas não é exatamente a minha área de interesse. Sou mais um usuário do Linux, sabe? Não prefiro me aprofundar em detalhes técnicos. Não tenho grande afinidade com a programação e afins. Tenho curiosidade de pesquisar como as coisas funcionam e gosto de desafios como Arch ou Gentoo. Sou um entusiasta do uso da linha de comando, navegando por diretórios e ajustando configurações. Não sou o tipo de pessoa que passa horas escrevendo código, mas sou aquele que garante que tudo esteja funcionando perfeitamente nos bastidores. Portanto, se precisar de alguém para configurar seu Linux de uso doméstico, estou à disposição. Apenas não me peça para escrever um script sofisticado ou algo do tipo. Isso realmente não é minha praia.
+Hello, my name is Nicolas, I'm studying programming and Linux systems, but at the moment I only know the basics of shell scripting. My current goal is to learn the languages ​​C/C++, Python, JavaScript, PHP, Java, Rust, and Go. Then I will be able to enter a career in software development.
 
 ---
 

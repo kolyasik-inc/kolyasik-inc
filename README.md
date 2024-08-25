@@ -1,4 +1,4 @@
-# Hello, my name is Kolyasik
+# Hello, my name is Nicolas also know Kolyasik
 
 - I'm studying programming and german, but at the moment I only know Linux terminal usage and the basics of Shell scripting. 
 - My current goal is to learn the languages ​​C/C++, Python, JavaScript, PHP, Java, Rust, and Go.

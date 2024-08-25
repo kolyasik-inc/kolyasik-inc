@@ -1,8 +1,8 @@
 # Hello, my name is Nicolas also know Kolyasik
-- I am currently improving my programming skills.
-- However, at the moment, I only know how to use the Linux terminal and the basics of Shell scripting.
-- My current goal is to learn most development technologies so that I can pursue a career in software development.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1000&pause=1000&color=21F700&multiline=true&width=800&height=67&lines=-+I+am+currently+improving+my+programming+skills.;-+I+only+know+how+to+use+the+Linux+terminal+and+Shell+scripting.;-+My+current+goal+is+to+pursue+a+career+in+software+development.)](https://git.io/typing-svg)
+
 ---
+
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=kolyasik-inc&theme=dark" />
 </a>

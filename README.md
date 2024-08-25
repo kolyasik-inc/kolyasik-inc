@@ -3,10 +3,10 @@ Hello, my name is Kolyasik, I'm studying programming and Linux systems, but at t
 ---
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=kolyasik-inc" />
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=kolyasik-inc" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference) />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kolyasik-inc&layout=compact&langs_count=8&card_width=320" />
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kolyasik-inc&layout=compact&langs_count=8&card_width=320" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference) />
 </a>
 
 <picture>
@@ -21,4 +21,5 @@ Hello, my name is Kolyasik, I'm studying programming and Linux systems, but at t
   <img src="https://github-readme-stats.vercel.app/api?username=kolyasik-inc&show_icons=true" />
 </picture>
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kolyasik-inc&hide_progress=true)
 

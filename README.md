@@ -1,8 +1,7 @@
 # Hello, my name is Nicolas also know Kolyasik
-
-- I'm studying programming and german , but at the moment I know Linux terminal usage and the basics of Shell scripting. 
+- I'm studying programming and the German language, but at the moment, I only know how to use the Linux terminal and the basics of Shell scripting.
 - My current goal is to learn most of the development technologies so that I can pursue a career in software development.
-
+- 
 ---
 
 <a href="https://github.com/anuraghazra/github-readme-stats">

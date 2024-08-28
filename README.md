@@ -13,7 +13,7 @@
 -->
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kolyasik-inc&show_icons=true&theme=transparent)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kolyasik-inc&layout=compact&theme=transparent) 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kolyasik-inc&layout=chart&theme=transparent) 
 
 <picture>
   <source

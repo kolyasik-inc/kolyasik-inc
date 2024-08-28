@@ -12,10 +12,12 @@
 </a>
 -->
 
+<div height=200 align="center">
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kolyasik-inc&show_icons=true&theme=transparent)
-
+</div>
+<div height=200 align="center">
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kolyasik-inc&layout=donut&theme=transparent)
-
+</div>
 <picture>
   <source
     media="(prefers-color-scheme: dark)"

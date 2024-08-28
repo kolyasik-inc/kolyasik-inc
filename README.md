@@ -3,18 +3,19 @@
 
 ---
 
+<!--
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=kolyasik-inc&theme=dark" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kolyasik-inc&layout=compact&langs_count=8&card_width=320&theme=dark" />
 </a>
+-->
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=transparent)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kolyasik-inc&show_icons=true&theme=transparent)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=transparent)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kolyasik-inc&layout=compact&theme=transparent)
 
-<!--
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -29,4 +30,3 @@
     src="https://raw.githubusercontent.com/kolyasik-inc/kolyasik-inc/output/github-contribution-grid-snake.svg"
   />
 </picture>
--->

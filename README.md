@@ -1,4 +1,4 @@
-# Hello, my name is Nicolas also know Kolyasik
+# Hello, my name is Nicolas also know as Kolyasik
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1000&pause=1000&color=21F700&multiline=true&width=800&height=67&lines=-+I+am+currently+improving+my+programming+skills.;-+I+only+know+how+to+use+the+Linux+terminal+and+Shell+scripting.;-+My+current+goal+is+to+pursue+a+career+in+software+development.)](https://git.io/typing-svg)
 
 ---

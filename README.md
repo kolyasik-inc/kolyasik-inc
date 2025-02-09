@@ -1,5 +1,5 @@
 # Hello, my name is Nicolas also know as Kolyasik
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1000&pause=1000&color=21F700&multiline=true&width=800&height=67&lines=-+I+am+currently+improving+my+programming+skills.;-+Linux+Shell+Dev.;-+My+current+goal+is+to+pursue+a+career+in+software+development.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1000&pause=1000&color=21F700&multiline=true&width=800&height=67&lines=-+I+am+nicolas+aka+kolyasik.;-+I+am+currently+improving+my+programming+skills.;-+My+current+goal+is+to+pursue+a+career+in+software+development.)](https://git.io/typing-svg)
 
 ---
 
